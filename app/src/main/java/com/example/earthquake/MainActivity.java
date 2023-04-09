@@ -19,7 +19,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private static final String USGS_REQUEST_URL =
-            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&endtime=2023-03-31&minmagnitude=6";
+            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=6";
 
     EarthQuakeAdapter quakeAdapter;
     ProgressBar loading_indicator;
